@@ -77,6 +77,9 @@ const BookDetails = () => {
               <span className='fw-6'>Subjects: </span>
               <span>{book?.subjects}</span>
             </div>
+             <div>
+              <button className='add-cart'>Add to cart</button>
+            </div>
           </div>
         </div>
       </div>
