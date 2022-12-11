@@ -48,7 +48,11 @@
     outline: -1px solid slategray;
     border-radius: 8px;
 }
-
+.add-cart{
+    background-color: rgb(107, 186, 222);
+    border-radius: 10% !important;
+    padding: 2%;
+}
 @media screen and (min-width: 768px){
     .book-details-content{
         grid-template-columns: 40% 60%;
