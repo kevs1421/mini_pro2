@@ -52,7 +52,7 @@ const BookDetails = () => {
       <div className='container'>
         <button type='button' className='flex flex-c back-btn' onClick={() => navigate("/book")}>
           <FaArrowLeft size = {22} />
-          <span className='fs-18 fw-6'>Go Back</span>
+          <span className='fs-18 fw-6'>Back</span>
         </button>
         <div className='book-details-content grid'>
           <div className='book-details-img'>
@@ -78,7 +78,7 @@ const BookDetails = () => {
               <span>{book?.subjects}</span>
             </div>
              <div>
-              <button className='add-cart'>Add to cart</button>
+              <button  className='add-cart'>Borrow</button>
             </div>
           </div>
         </div>

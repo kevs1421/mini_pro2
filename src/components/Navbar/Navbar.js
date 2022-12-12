@@ -12,10 +12,10 @@ const Navbar = () => {
     <nav className='navbar' id = "navbar">
       <div className='container navbar-content flex'>
         <div className='brand-and-toggler flex flex-sb'>
-          <Link to = "/" className='navbar-brand flex'>
-            <img src = {logoImg} alt = "site logo" />
-            <span className='text-uppercase fw-7 fs-24 ls-1'>ReadBooks</span>
-          </Link>
+            <div className='navbar-brand flex'>
+              <img src = {logoImg} alt = "site logo" />
+              <span className='text-uppercase fw-7 fs-24 ls-1'>ReadBooks</span>
+            </div>
           <button type = "button" className='navbar-toggler-btn' onClick={handleNavbar}>
             <HiOutlineMenuAlt3 size = {35} style = {{
               color: `${toggleMenu ? "#fff" : "#010101"}`
