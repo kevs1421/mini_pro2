@@ -78,7 +78,7 @@ const BookDetails = () => {
               <span>{book?.subjects}</span>
             </div>
              <div>
-              <button  className='add-cart'>Borrow</button>
+              <button  className='add-borrow'>Borrow</button>
             </div>
           </div>
         </div>
