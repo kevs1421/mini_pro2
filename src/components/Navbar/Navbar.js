@@ -31,9 +31,9 @@ const Navbar = () => {
             <li className='nav-item'>
               <Link to = "about" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>about</Link>
             </li>
-            <li className='nav-item'>
+            <li className='nav-item-book'>
               <Link to="/cart">
-                <i className='fa-solid fa-cart-shopping'/>
+                <i className='fa-solid fa-book-medical'/>
               </Link>
             </li>
           </ul>

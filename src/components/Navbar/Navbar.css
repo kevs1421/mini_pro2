@@ -24,7 +24,7 @@
     right: 0;
     top: 0;
     z-index: 10;
-    background-color: var(--black-color);
+    background-color: var(--purple-color);;
     height: 100%;
     width: 280px;
     display: flex;
@@ -36,6 +36,9 @@
     transform: translateX(0);
 }
 .nav-item{
+    margin-bottom: 1.4rem;
+}
+.nav-item-book{
     margin-bottom: 1.4rem;
 }
 .nav-link{
@@ -61,6 +64,12 @@
     .nav-item{
         margin-bottom: 0;
         margin-left: 2.8rem;
+        font-size: x-large;
+    }
+    .nav-item-book{
+        margin-bottom: 0;
+        margin-left: 2.8rem;
+        font-size: x-large;
     }
     .nav-link{
         color: var(--black-color);
